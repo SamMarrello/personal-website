@@ -7,7 +7,7 @@ import io.ktor.http.content.*
 fun Application.configureRouting() {
     routing {
         static("/static") {
-            resources("html")
+            resources("html, css, typescript")
         }
     }
 }
